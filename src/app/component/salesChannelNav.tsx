@@ -14,13 +14,13 @@ const NavbarSales = () => {
                 </td>
 
                 <td>
-                <Link href="salesChannel/">
+                <Link href="salesChannel/exsistingProduct">
                     Exsisting product
                 </Link>
                 </td>
 
                 <td>
-                <Link href="auth/registration">
+                <Link href="salesChannel/upcomingProduct">
                     Upcomming Product
                 </Link>
                 </td>
