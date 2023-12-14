@@ -2,17 +2,17 @@
 "use client"
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import Navbar from './component/navbarHome';
+import NavbarSales from '../component/salesChannelNav';
 
-const HomePage = () => {
+const salesChannel = () => {
   const router = useRouter();
 
   return (
     <div>
-      <Navbar />
-      <h1>Welcome to My Next.js App</h1>
+      <NavbarSales />
+      <h1>Welcome to Sales Channel</h1>
     </div>
   );
 };
 
-export default HomePage;
+export default salesChannel;

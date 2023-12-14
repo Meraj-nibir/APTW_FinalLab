@@ -12,13 +12,18 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="">
+          <Link href="auth/login">
             Login
           </Link>
         </li>
         <li>
-          <Link href="/registration">
+          <Link href="auth/registration">
             Registration
+          </Link>
+        </li>
+        <li>
+          <Link href="salesChannel">
+            Sales Channel
           </Link>
         </li>
         <li>
